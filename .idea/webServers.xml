@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a4ad63ee-2816-4e32-9992-9c15beb2a61c" name="A200_CloudNode" url="http://10.2.2.94">
+        <fileTransfer host="10.2.2.94" port="22" rootFolder="/home/achyudhk" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
