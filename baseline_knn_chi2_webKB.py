@@ -6,7 +6,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn import metrics
 from sklearn.model_selection import cross_val_score
 
-data = pd.read_table("data/R8/r8-train-stemmed.txt")
+data = pd.read_table("data/WebKB/webkb-train-stemmed.txt")
 data.columns=["Y","X"]
 classes = {'project':0, 'faculty':1, 'course':2, 'student':3}
 Y = np.array([classes[i0] for i0 in data["Y"]])

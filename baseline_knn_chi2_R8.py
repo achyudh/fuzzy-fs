@@ -6,7 +6,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn import metrics
 from sklearn.model_selection import cross_val_score
 
-data = pd.read_table("data/WebKB/webkb-train-stemmed.txt")
+data = pd.read_table("data/R8/r8-train-stemmed.txt")
 data.columns=["Y","X"]
 classes = { 'acq':0,
             'crude':1,
@@ -39,5 +39,5 @@ y_train = Y
 knn_model = KNeighborsClassifier(n_neighbors=3, weights='distance', n_jobs=1) # Minkowski distance with p=2
 psum = rsum = fsum = 0
 # scoring=metrics.make_scorer(metrics.precision_recall_fscore_support)
-cv_scores = cross_val_score(knn_model, x_train, y_train, scoring='f1_weighted', cv=5, n_jobs=5)
+cv_scores = cross_val_score(knn_model, x_train, y_train, scoring='f1_weighted', cv=5, n_jobs=1)
 print(sum(cv_scores)/5)
