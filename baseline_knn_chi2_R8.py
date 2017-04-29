@@ -25,6 +25,7 @@ X = vectorizer.fit_transform(X.values.astype('U')).toarray()
 x_train = SelectKBest(chi2, k=int(0.1*len(X[1]))).fit_transform(X, Y)
 y_train = Y
 
+# Uncomment to use test dataset:
 # data = pd.read_table("data/WebKB/webkb-test-stemmed.txt")
 # data.columns=["Y","X"]
 # classes = {'project':0, 'faculty':1, 'course':2, 'student':3}

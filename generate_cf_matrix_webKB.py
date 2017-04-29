@@ -51,13 +51,12 @@ data.columns=["Y","X"]
 Y = data["Y"]
 X = data["X"]
 vectorizer = TfidfVectorizer()
-# counter = CountVectorizer()
-# Xc = counter.fit_transform(X).toarray()
 X = vectorizer.fit_transform(X.values.astype('U')).toarray()
 
 x_train = X
 y_train = Y
 
+# If CMeans gives a bad RAND score, use KMeans by uncommenting the lines below:
 # kmeans = KMeans(n_clusters=4,n_jobs=-1).fit(x_train)
 # print('Score:',metrics.adjusted_rand_score(y_train,kmeans.predict(x_train)))
 
@@ -66,9 +65,11 @@ print('Score:',metrics.adjusted_rand_score(y_train,np.argmax(u,axis=0)))
 
 docinc = [[] for x in range(4)]
 for k in range(x_train.shape[0]):
+    # For KMeans clustering, replace the line below with the commented line:
+    # docinc[kmeans.predict(x_train[k])[0]]
     docinc[np.argmax(u[:,k])].append(k)
 
 clus = [0, 1, 2, 3]
-mpool = Pool(4)
+mpool = Pool(8)
 mapped_data = mpool.map(generate_cf_matrix, clus)
 mpool.close()
