@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="326a43ec-9e17-46e0-b5a5-998555ad8264" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baseline_knn_mi_R8.py" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/fuzzy_feature_selection_R8.py" afterPath="$PROJECT_DIR$/generate_cf_matrix_R8.py" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/fuzzy_feature_selection_webKB.py" afterPath="$PROJECT_DIR$/generate_cf_matrix_webKB.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -69,8 +70,8 @@
       <file leaf-file-name="baseline_knn_chi2_R8.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baseline_knn_chi2_R8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="96">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="17" selection-end-column="22" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -78,14 +79,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="baseline_knn_mi_webKB.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="baseline_knn_mi_webKB.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baseline_knn_mi_webKB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="240">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="baseline_knn_mi_R8.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/baseline_knn_mi_R8.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -148,6 +159,7 @@
         <option value="$PROJECT_DIR$/generate_cf_matrix_webKB.py" />
         <option value="$PROJECT_DIR$/generate_cf_matrix_R8.py" />
         <option value="$PROJECT_DIR$/baseline_knn_chi2_webKB.py" />
+        <option value="$PROJECT_DIR$/baseline_knn_mi_R8.py" />
       </list>
     </option>
   </component>
@@ -274,13 +286,13 @@
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\achyu\Documents\My Projects\GitHub Repositories\Ensemble-Text-Classification\data\R8" />
-      <recent name="C:\Users\achyu\Documents\My Projects\GitHub Repositories\Ensemble-Text-Classification\data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\achyu\Documents\My Projects\GitHub Repositories\Ensemble-Text-Classification" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\achyu\Documents\My Projects\GitHub Repositories\Ensemble-Text-Classification\data\R8" />
+      <recent name="C:\Users\achyu\Documents\My Projects\GitHub Repositories\Ensemble-Text-Classification\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -912,16 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baseline_knn_chi2_R8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baseline_knn_chi2_webKB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -932,13 +934,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baseline_knn_mi_webKB.py">
+    <entry file="file://$PROJECT_DIR$/baseline_knn_chi2_R8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        <state relative-caret-position="96">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="17" selection-end-column="22" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baseline_knn_mi_webKB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baseline_knn_mi_R8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
