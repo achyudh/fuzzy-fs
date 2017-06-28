@@ -8,7 +8,8 @@ Top ‘k’ features are selected from these datasets using cosine similarity sc
 
 ## Getting Started:
 
-### Pre-requisites:
+### Prerequisites:
+The implementation made use of the classifiers and feature selection algorithms implemented in the Scikit-learn library for Python, and Scikit-fuzzy package was used for the FCM algorithm. Stopword removal, Snowball Stemmer and WordNet Lemmatizer from the NLTK library were used to preprocess the corpora. The computation of the CF matrix is highly time consuming and hence to perform the computations and store the intermediate results, the popular Numpy package was used. The Pandas package provided the necessary utilities for reading and storing the pre-processed text data
 
 ### Running the modules:
 Run baseline_knn_chi2_webKB.py files to get an estimate of the baseline KNN performance on WebKB with Chi2 feature selection. Similarly for other feature selection techniques and datasets. The following scripts need to be run sequentially:
