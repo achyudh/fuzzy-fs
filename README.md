@@ -1,4 +1,4 @@
-# Novel Feature Selection Using Fuzzy C-Means
+# FuzzyFS
 > A novel feature selection technique for text data using Term-Term correlation based on clusters generated using the Fuzzy C-Means (FCM) Algorithm 
 
 ![](https://raw.githubusercontent.com/achyudhk/FCM-Feature-Selection/master/doc/accuracy_results.png)
